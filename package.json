@@ -1,0 +1,22 @@
+{
+	"name": "travel-guide",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"homepage": "https://USERNAME.github.io/travel-guide",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build && node tools/build-pages.mjs",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"animejs": "^4.5.0",
+		"three": "^0.187.0",
+		"vue": "^3.5.44",
+		"vue-router": "^5.4.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^6.0.10",
+		"vite": "^8.3.5"
+	}
+}
